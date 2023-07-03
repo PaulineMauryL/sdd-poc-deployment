@@ -1,7 +1,7 @@
 apiVersion: v2
-name: bfs-sdd-poc-deploy
+name: bfs-sdd-poc
 version: 1.0.0
 dependencies:
-  - name: vscode-python
+  - name: k8s-onboarding
     version: 0.16.0
     repository: https://inseefrlab.github.io/helm-charts
