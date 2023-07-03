@@ -1,0 +1,7 @@
+apiVersion: v2
+name: bfs-sdd-poc-deploy
+version: 1.0.0
+dependencies:
+  - name: vscode-python
+    version: 0.16.0
+    repository: https://inseefrlab.github.io/helm-charts
