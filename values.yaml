@@ -1,12 +1,12 @@
-vscode-python:
+k8s-onboarding:
   image:
-    repository: PaulineMauryL/sdd-poc-server
-    tag: "1.0.1"
+    repository: paulinemaurylaribiere1996/sdd_server_dev
+    tag: "latest"
     pullPolicy: Always
   ingress:
     enabled: true
     hostname: sdd-poc-server.lab.sspcloud.fr
   # s3:
-  #  enabled: true
-  #  existingSecret: myshinyapp-s3
+  #   enabled: true
+  #   existingSecret: myshinyapp-s3
   resources: {}
