@@ -5,7 +5,7 @@ vscode-python:
     pullPolicy: Always
   ingress:
     enabled: true
-    hostname: myshinyapp.lab.sspcloud.fr
+    hostname: sdd-poc-server.lab.sspcloud.fr
   # s3:
   #  enabled: true
   #  existingSecret: myshinyapp-s3
